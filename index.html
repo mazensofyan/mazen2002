@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <style>
+            th,td{
+                border: 1px solid black;
+                padding: 12px;
+            
+          }
+        
+        </style> 
+        
+        <title>coder mazen</title>
+        <meta charset="utf-8">
+        <meta name="viewpord" content="width=device-width, initia-scale=1.0"
+        <meta name="description" content="مازن هو طالب جامعي يطمح لتعلم البرمجه  فعن طريق كودر شيار يتعلم مازن تصميم المواقع اتش تي ام ال"/>
+        <meta name="keywordd" content="coder mazen , programming , html"/>
+        <meta name="twitter:card" content="sumarry_large_image">
+        <meta name="twitter:title" content="coder mazen">
+        <meta name="twitter:description" content="coder mazen is a student in an shyar acadmic">
+        <meta name="twitter:image" content="imagee.jpg">
+        
+    </head>
+    
+    
+    <article >
+<img src="imagee.jpg"height="200" width="270" id="imageid"/>
+
+<h2>coder mazen</h2>
+    </article>
+    <br>
+    <table border="3">
+    <tr>
+<th>الاسم</th>
+<th>العمر</th>
+<th>الدوله</th>
+
+    </tr>
+    <tr>
+        <td>مازن</td>
+        <td>18</td>
+        <td>السودان</td>
+    </tr>
+    </table>
+    
+<br>
+    <b>أستاذك الاول لتعلم البرمجه</b>
+<ins>على يوتيوب</ins>
+<br>
+
+<form>
+<textarea rows="4" placeholder="">ضع رسالتك هنا</textarea>
+<button type="submit">ارسال</button>
+
+<br>
+<a href="imagee.jpg" download>لتحميل صورة الموقع</a>
+<br>
+<details style="background: gray;
+font-weight: bold;
+color: black;
+padding: 20px;">
+    <summary style="border: 2px solid black;
+    padding: 10px;"> نبذه عن الموقع</summary>
+    <p>افضل دورات لتعلم تصميم المواقع</p>
+    <p>افضل دورات لبرمجه التطبيقات</p>
+    <p>شهاده معتمده بنهاية كل دورة</p>
+</details>
+
+<button style="color: black;
+background:white;
+border: 0px;
+margin: 5px;" type="button" onclick="alert('hallo coder shiyar')">زر تجريبي</button>
+
+<form>
+    <input type="url" name="url"/>
+    <button type="submit">بحث</button>
+<table>
+<tr>
+    <td>
+        <label>email</label>
+ <td><input type="email" placeholder="ضع بريدك الالكترونى" name="email" oninvalid="error_massage(this)" oninput="error_massage()" required/></td>
+    </td>
+</tr>
+</table>
+
+<table>
+<tr>
+    <td><label>password</label>
+        <td><input type="password" placeholder="ضع كلمه المرور" minlength="8" required /></td>
+    </td>
+</tr>
+
+</table>
+
+
+<button type="submit">تسجيل دخول</button>
+<a href="register.html">انشاء حساب</a>
+
+</form>
+</a>
+
+
+    
+<br>
+<button onclick="opendialog()">عرض المزيد</button>
+<dialog id="box" open="true">
+<fieldset>
+    <label>contact us - تواصل معنا</label>
+    <h3> phone number  -<bdi>رقم الهاتف</bdi> :+249119275991</h3>
+    <h3>email<bdi>البريد الالكترونى</bdi> :mazinsofyan@icloud.com</h3>
+</fieldset>
+
+<h6>&copy;جميع الحقوق محفظوظه</h6>
+<button onclick="closedialog()">اغلاق</button>
+</dialog>
+<script>
+function opendialog(){
+ document.getElementById("box").setAttribute("open","true");
+
+}
+function closedialog(){
+
+    document.getElementById("box").removeAttribute("open");
+
+}
+
+</script>
+    </body>
+</html>
