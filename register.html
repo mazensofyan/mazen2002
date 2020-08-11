@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head >
+
+        
+        
+<meta charset="utf-8">
+<meta name="viewpord" content="width=device-width, initia-scale=1.0"/>
+<title>creat account</title>
+    </head>
+    <center>
+   <body >
+    <link rel="stylesheet" href="style.css"/>
+       <form>
+    <h4>اختار لغتك</h4>
+       <select multiple name="lang">
+        <option value="اللغة العربية">                  اللغه العربية </option>
+        <option value="اللغة الانجليزية"> اللغة الانجليزية</option>
+        <option value="اللغة الفرنسية"> اللغة الفرنسية</option>
+           <button type="submit">ارسال البيانات</button>
+       </form>
+       </select>
+       <form>
+       <br>
+<strong>أضافة صورة شخصية</strong>
+       <input type="file" accept="image/*">
+       <br>
+    <input type="text" placeholder="ضع اسمك" name="" minlength="4" maxlength="15" required/>
+    <br>
+    <input type="tel" placeholder="ضع رقم هاتفك"/>
+    <br>
+    <strong>ضع تاريخ ميلادك</strong>
+<input type="date" value="1990-01-12" required/>
+<br>
+<strong>قم بتحديد الجنس</strong>
+<label>ذكر</label>
+<input type="radio" name="gender" value="ذكر"/> 
+<label>أنثى</label>
+<input type="radio" name="gender" value="أنثى"/>
+       </form>
+<form method="GET">
+    هل أنت متزوج؟<input type="checkbox" name="married" value="yes"/>
+</form>
+<form >
+<h4>من اين انت؟</h4>
+<select multiple name="nationality">
+<option value="الامارات">"الامارات"</option>
+<option value="البحرين">"البحرين"</option>
+<option value="عمان">"عمان"</option>
+<option value="السودان">"السودان"</option>
+<option value="قطر">"قطر"</option>
+<option value="العراق">"العراق"</option>
+<option value="سوريا">"سوريا"</option>
+<option value="الكويت">"الكويت"</option>
+<option value="الصومال">""الصومال</option>
+<option value="مصر">"مصر"</option>
+<option value="الجزائر">"الجزائر"</option>
+<option value="تونس">"تونس"</option>
+<option value="المغرب">"المغرب"</option>
+<option value="فلسطين">"فلسطين"</option>
+<button type="submit">ارسال البيانات</button>
+</select>
+</form>
+<table>
+<tr>
+    <td><label>email</label><span style="color: red;">*</span></td>
+       <td><input type="email" name="email" required/></td>
+</tr>
+</table>
+<table>
+<tr>
+<td><label>password</label><span style="color: red;">*</span></td>
+<td><input type="password" name="password"/></td>
+</tr>
+</table>
+<button type="submit"> ارسال البيانات</button> 
+
+</center>
+</table>
+   </body>
+    </html>
